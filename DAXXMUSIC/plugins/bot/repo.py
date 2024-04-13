@@ -71,7 +71,7 @@ InlineKeyboardButton("𝐏𝐀𝐈𝐃 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍", ur
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/faa1f3ad7116e33d9f402.jpg",
+        photo="https://graph.org/file/c26b855435fd1d024ea26.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
