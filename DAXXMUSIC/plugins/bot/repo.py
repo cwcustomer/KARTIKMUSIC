@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя ƙᴀʀᴛɪᴋ яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя Sʜɪᴠᴀɴɢ яєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -32,39 +32,39 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/ll_KARTIK_HU_BSDK_ll"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ll_KARTIK_HU_ll"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/ll_ABOUT_SHIVANG_ll"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ll_SHIVANG_ll"),
           ],
                [
-                InlineKeyboardButton("𝗟𝗜𝗩𝗘 𝗖𝗖", url="https://t.me/ll_KARTIK_HU_ll"),
+                InlineKeyboardButton("𝗟𝗜𝗩𝗘 𝗖𝗖", url="https://t.me/ll_HEROKU_FREE_CC_ll"),
 
 ],
 [
-              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://t.me/ll_KARTIK_HU_ll"),
-              InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/ll_KARTIK_HU_ll"),
+              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://t.me/ll_SHIVANG_ll"),
+              InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/ll_ABOUT_SHIVANG_ll"),
               ],
               [
-              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://t.me/ll_KARTIK_HU_ll"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/ll_KARTIK_HU_ll"),
+              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://t.me/lll_BRANDED_FAMILY_lll"),
+InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/lll_BRANDED_FAMILY_lll"),
 ],
 [
-InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://t.me/ll_KARTIK_HU_ll"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧𝗚𝗣𝗧", url=f"https://t.me/ll_KARTIK_HU_ll"),
+InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://t.me/lll_BRANDED_FAMILY_lll"),
+InlineKeyboardButton("𝗖𝗛𝗔𝗧𝗚𝗣𝗧", url=f"https://t.me/ll_ABOUT_SHIVANG_ll"),
 ],
 [
-              InlineKeyboardButton("𝗩𝗣𝗦", url=f"https://t.me/ll_KARTIK_HU_ll"),
-              InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘︎", url=f"https://t.me/ll_KARTIK_HU_ll"),
+              InlineKeyboardButton("𝗩𝗣𝗦", url=f"https://t.me/ll_HEROKU_FREE_CC_ll"),
+              InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘︎", url=f"https://t.me/lll_BRANDED_FAMILY_lll"),
               ],
               [
-              InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗛𝗔𝗖𝗞︎", url=f"https://t.me/ll_KARTIK_HU_ll"),
-InlineKeyboardButton("𝗜𝗗 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/ll_KARTIK_HU_ll"),
+              InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗛𝗔𝗖𝗞︎", url=f"https://t.me/ll_ABOUT_SHIVANG_ll"),
+InlineKeyboardButton("𝗜𝗗 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/lll_BRANDED_FAMILY_lll"),
 ],
 [
-InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://t.me/ll_KARTIK_HU_ll"),
-InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛𝗕𝗢𝗧", url=f"https://t.me/ll_KARTIK_HU_ll"),
+InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://t.me/ll_HEROKU_FREE_CC_ll"),
+InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛𝗕𝗢𝗧", url=f"https://t.me/ll_ABOUT_SHIVANG_ll"),
 ],
 [
-InlineKeyboardButton("𝐏𝐀𝐈𝐃 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍", url=f"https://t.me/ll_KARTIK_HU_ll"),
+InlineKeyboardButton("𝐏𝐀𝐈𝐃 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍", url=f"https://t.me/ll_SHIVANG_ll"),
 
         ]]
     
@@ -94,7 +94,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/cwcustomer/KARTIKMUSIC) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/ll_KARTIK_HU_BSDK_ll)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/cwcustomer/KARTIKMUSIC) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/lll_BRANDED_FAMILY_lll)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
